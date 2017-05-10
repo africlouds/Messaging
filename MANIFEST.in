@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include messaging *.css
+recursive-include messaging *.csv
+recursive-include messaging *.html
+recursive-include messaging *.ico
+recursive-include messaging *.js
+recursive-include messaging *.json
+recursive-include messaging *.md
+recursive-include messaging *.png
+recursive-include messaging *.py
+recursive-include messaging *.svg
+recursive-include messaging *.txt
+recursive-exclude messaging *.pyc
